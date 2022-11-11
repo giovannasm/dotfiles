@@ -4,6 +4,9 @@ begin
 rescue LoadError
 end
 
+require "awesome_print"
+AwesomePrint.pry!
+
 if defined?(Pry)
   Pry.start
   exit
