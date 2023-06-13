@@ -54,7 +54,7 @@
   defaultBranch = master
 [user]
 	email = giovannasm@gmail.com
-	name = Giovanna Montemurro
+	name = giovanna montemurro
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
