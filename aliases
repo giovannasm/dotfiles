@@ -7,3 +7,43 @@ alias serve='ruby -run -e httpd . -p 8000' # Or python -m SimpleHTTPServer :)
 
 # NOTE: On Q3 2021, Le Wagon decided to change the Web Dev curriculum default text editor
 alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' && code ."
+
+#prod
+alias prod='~
+cd Documents/omens/
+ssh -i omens.pem sandbox-rails-ec2-t1@52.67.221.154'
+
+#staging
+alias stag='~
+cd Documents/omens/
+ssh -i omens.pem ubuntu@18.231.113.43'
+
+#projeto rails
+alias railsp='~
+cd code/omens/omens-backend'
+
+#projeto new api
+alias newapi='~
+cd code/omens/omens-new-backend'
+
+#projeto front
+alias front='~
+cd code/omens/omens-frontend-v2'
+
+#projeto farmacia
+alias farma='~
+cd code/omens/oms-frontend'
+
+#lewagon
+alias lw='~
+cd code/lewagon'
+
+#dio
+alias dio='~
+cd code/bootcamp-santander'
+
+#interpretador python
+alias py='python3'
+
+#sqlite3
+alias sl='sqlite3'

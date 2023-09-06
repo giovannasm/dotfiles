@@ -82,10 +82,18 @@
     "workbench.panel.defaultLocation": "right",
     "liveshare.allowInvites": "all",
     "workbench.editor.untitled.hint": "hidden",
-    "liveshare.accessibility.accessibilityFeaturesEnabled": true,
+    "liveshare.accessibility.accessibilityFeaturesEnabled": "on",
     "files.autoSave": "afterDelay",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "editor.inlineSuggest.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": true,
+      "markdown": false,
+      "scminput": false
+    },
 }
